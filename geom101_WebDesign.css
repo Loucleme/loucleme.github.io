@@ -5,7 +5,7 @@
 
 /* Background Colour for the whole page */
 body {
-	background-color: #b3d9ff;
+	background-color: CadetBlue;
 	opacity: 0.3;
 }
 
@@ -30,16 +30,19 @@ p {
 	overflow: hidden;
 	background-color: #b3d9ff;
 	top: 0;
-	padding: 25 px 25 px
+	display: inline-block;
 }
 
 /* Styling the interior of the navigation bar. */
 .topnav a {
 	float: left;
+	display: block;
 	color: #000099;
 	text-align: center;
 	padding: 30 px 30 px;
 	font-size: 35 px;
+	height: 50 px
+	width: 120 px
 }
 
 /* Styling when hovering on the topnav. */
