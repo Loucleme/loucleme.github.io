@@ -2,21 +2,23 @@
 <html>
 <head>
 <style>
+
 /* Background Colour for the whole page */
 body {
-	background-color: #ffffcc;
+	background-color: #b3d9ff;
+	opacity: 0.3;
 }
 
 /* Style for the heading1 */
 h1 {
 	color: maroon;
-	margin-left: 40 px;
-	font-size: 40 px;
+	margin-left: 80 px;
+	font-size: 70 px;
 }
 
 /* Style for the paragraphs */
 p {
-	font-size: 50 px;
+	font-size: 65 px;
 	margin-left: 45 px;
 	margin-right: 45 px;
 	font-family: Verdana, sans-serif;
@@ -28,6 +30,7 @@ p {
 	overflow: hidden;
 	background-color: #b3d9ff;
 	top: 0;
+	padding: 25 px 25 px
 }
 
 /* Styling the interior of the navigation bar. */
@@ -35,7 +38,7 @@ p {
 	float: left;
 	color: #000099;
 	text-align: center;
-	padding: 10 px 12 px;
+	padding: 30 px 30 px;
 	font-size: 35 px;
 }
 
