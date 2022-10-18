@@ -16,9 +16,10 @@ h1 {
 
 /* Style for the paragraphs */
 p {
-	font-size: 20 px;
+	font-size: 50 px;
 	margin-left: 45 px;
 	margin-right: 45 px;
+	font-family: Verdana, sans-serif;
 }
 
 /* Place the topnav at the top of the page and make it stick. */
@@ -35,7 +36,7 @@ p {
 	color: #000099;
 	text-align: center;
 	padding: 10 px 12 px;
-	font-size: 14 px;
+	font-size: 35 px;
 }
 
 /* Styling when hovering on the topnav. */
