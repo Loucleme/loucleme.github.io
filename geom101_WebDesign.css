@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
 <style>
-\*Background Colour for the whole page*\
+<!-- Background Colour for the whole page -->
 body {
 	background-color: #ffffcc;
 }
-\*Style for the heading1*\ 
+
+<!-- Style for the heading1 -->
 h1 {
 	color: maroon;
 	margin-left: 40px;
 	font-size: 40px;
 }
 
-\* Place the navbar at the top of the page and make it stick.*\
+<!-- Place the navbar at the top of the page and make it stick. -->
 .navbar {
 	list-style-type: none;
 	position: fixed;
@@ -22,7 +22,7 @@ h1 {
 	top: 0;
 	width: 100%;
 }
-\* Styling the interior of the navigation bar.*\
+<!-- Styling the interior of the navigation bar. --> 
 .navbar a {
 	float: left;
 	display: flex;
@@ -32,14 +32,13 @@ h1 {
 	font-size: 14px;
 }
 
-\* Styling when hovering on the navbar.*\
+<!-- Styling when hovering on the navbar. -->
 .navbar a:hover {
 	background-color: #333399;
 	text-color: 000099;
 }
 
-\* Styling of the navbar when its been clicked.*\
-
+<!-- Styling of the navbar when its been clicked. -->
 .navbar a.active {
 	background-color: #b3d9ff;
 	text-color: #800000;
