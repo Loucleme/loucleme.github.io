@@ -36,12 +36,12 @@ p {
 
 /* Styling list items to display as blocks in the navigation bar. */
 .topnav li {
+	display: inline block;
 	font-family: verdana, sans-serif;
 	font-size: 30 px;
 	display: block;
 	line-height: 40 px;
 	height: 40 px;
-	float: left;
 	border-right: 1 px solid black;
 	border-bottom: 1 px solid black;
 	
@@ -53,7 +53,7 @@ p {
 	text-decoration: none;
 	background-color: #4d7d80;
 	text-align: center;
-	padding: 6 px;
+	padding: 16 px;
 	font-weight: bold;
 	height: 50 px
 	width: 200%;
