@@ -37,17 +37,16 @@ p {
 .topnav li {
 	display: inline-block;
 	font-family: verdana, sans-serif;
-	text-decoration: none;
+	padding: 40 px;
 }
 	
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
-	display:inline-block;
-	font-size: 30 px;
-	line-height: 40 px;
-	height: 80 px;
-	padding: 20 px;
+	font-size: 40 px;
+	line-height: 2em;
+	padding: 40 px;
+	text-decoration: none;
 }
 
 /* Styling when hovering on the topnav. */
