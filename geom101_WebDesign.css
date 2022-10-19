@@ -1,7 +1,9 @@
 
-/* Background Colour for the whole page */
+/* Background Colour for the whole page and clearing out margin and padding */
 body {
 	background-color: #9fc4c6;
+	padding: 0;
+	margin: 0;
 }
 
 /* Style for the heading1 */
@@ -20,22 +22,28 @@ p {
 }
 
 /* Place the topnav at the top of the page and make it stick. */
-.topnav {
+.topnav ul {
 	list-style-type: none;
+	background-color: #4d7d80;
+	text-align: center;
 	overflow: hidden;
+	padding: 0;
+	margin: 0;
 	top: 0;
-	font-family: verdana, sans-serif;
+
 
 }
 
 /* Styling list items to display as blocks in the navigation bar. */
 .topnav li {
+	font-family: verdana, sans-serif;
+	font-size: 30 px;
 	display: block;
-	color: #ffffff;
+	line-height: 40 px;
+	height: 40 px;
 	float: left;
-	margin-left: 2 px;
 	border-right: 1 px solid black;
-	padding: 30 px 30 px;
+	border-bottom: 1 px solid black;
 	
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
