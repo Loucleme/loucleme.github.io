@@ -26,6 +26,7 @@ p {
 	background-color: #4d7d80;
 	top: 0;
 	display: inline;
+	width: 200%;
 	border-right: 1 px solid black;
 }
 
@@ -38,7 +39,7 @@ p {
 	padding: 30 px 30 px;
 	font-size: 35 px;
 	height: 50 px
-	width: 120%;
+	width: 200%;
 	font-weight: bold;
 }
 
