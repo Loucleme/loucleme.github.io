@@ -27,7 +27,7 @@ p {
 	background-color: #4d7d80;
 	text-align: center;
 	overflow: hidden;
-	padding: 4em;
+	padding: 4 em;
 	margin: 0 px;
 	top: 0 px;
 	
@@ -37,14 +37,15 @@ p {
 .topnav li {
 	display: inline-block;
 	font-family: verdana, sans-serif;
-	padding: 2em;
+	padding: 2 em;
+	margin: 2em
 }
 	
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
 	font-size: 40 px;
-	line-height: 2em;
+	line-height: 2 em;
 	line-weight: bold;
 	padding: 2em;
 	text-decoration: none;
