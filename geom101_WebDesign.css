@@ -38,7 +38,7 @@ p {
 	display: inline-block;
 	font-family: verdana, sans-serif;
 	padding: 2 em;
-	margin: 2em
+	margin: 2 em;
 }
 	
 	
@@ -47,7 +47,8 @@ p {
 	font-size: 40 px;
 	line-height: 2 em;
 	line-weight: bold;
-	padding: 2em;
+	padding: 2 em;
+	margin: 2 em;
 	text-decoration: none;
 }
 
