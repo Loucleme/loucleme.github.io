@@ -23,31 +23,33 @@ p {
 .topnav {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #b3d9ff;
+	background-color: #4d7d80;
 	top: 0;
 	display: inline;
+	border-right: 1 px solid black;
 }
 
 /* Styling the interior of the navigation bar. */
 .topnav a {
 	float: left;
-	display: block;
-	color: #000099;
+	display: inline;
+	color: #ffffff;
 	text-align: center;
 	padding: 30 px 30 px;
 	font-size: 35 px;
 	height: 50 px
-	width: 50%;
+	width: 120%;
+	font-weight: bold;
 }
 
 /* Styling when hovering on the topnav. */
 .topnav a:hover {
-	background-color: #333399;
+	background-color: #eff5f5;
 	color: #000099;
 }
 
 /* Styling of the topnav when its been clicked. */
 .topnav a.active {
-	background-color: #b3d9ff;
+	background-color: #4d7d80;
 	color: #800000;
 }
