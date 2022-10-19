@@ -31,7 +31,7 @@ h2 {
 	font-size: 18px;
 	font-family: Verdana, sans-serif;
 	font-weight: bold;
-	color: #ffb3ff
+	color: #ffb3ff;
 }
 
 /* Style for the paragraphs */
@@ -46,7 +46,7 @@ p {
 	background-color: #4d7d80;
 	text-align: center;
 	overflow: hidden;
-	padding: 10px;
+	padding: 5px;
 	margin: 0px;
 }
 
@@ -61,7 +61,7 @@ p {
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
 	font-size: 20px;
-	line-height: 40px;
+	line-height: 20px;
 	font-weight: bold;
 	text-decoration: none;
 }
