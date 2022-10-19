@@ -27,7 +27,7 @@ p {
 	background-color: #4d7d80;
 	text-align: center;
 	overflow: hidden;
-	padding: 18;
+	padding: 30;
 	margin: 0;
 	top: 0;
 	text-decoration: none;
@@ -35,18 +35,19 @@ p {
 
 /* Styling list items to display as blocks in the navigation bar. */
 .topnav li {
+	list-style-type: none;
 	display: inline-block;
 	font-family: verdana, sans-serif;
 	font-size: 30 px;
 	line-height: 40 px;
-	height: 40 px;
+	height: 80 px;
 }
 	
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
+	list-style-type: none;
 	display:inline-block;
-	
 }
 
 /* Styling when hovering on the topnav. */
