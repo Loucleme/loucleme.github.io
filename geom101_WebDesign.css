@@ -30,8 +30,7 @@ p {
 	padding: 18;
 	margin: 0;
 	top: 0;
-
-
+	text-decoration: none;
 }
 
 /* Styling list items to display as blocks in the navigation bar. */
@@ -39,10 +38,9 @@ p {
 	display: inline-block;
 	font-family: verdana, sans-serif;
 	font-size: 30 px;
-	text-decoration: none;
 	line-height: 40 px;
 	height: 40 px;
-
+}
 	
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
