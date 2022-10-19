@@ -25,7 +25,7 @@ p {
 	overflow: hidden;
 	background-color: #b3d9ff;
 	top: 0;
-	display: inline-block;
+	display: inline;
 }
 
 /* Styling the interior of the navigation bar. */
@@ -37,7 +37,7 @@ p {
 	padding: 30 px 30 px;
 	font-size: 35 px;
 	height: 50 px
-	width: 120 px
+	width: 50%;
 }
 
 /* Styling when hovering on the topnav. */
