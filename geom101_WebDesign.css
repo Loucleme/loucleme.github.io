@@ -39,25 +39,16 @@ p {
 	display: inline-block;
 	font-family: verdana, sans-serif;
 	font-size: 30 px;
-	display: block;
+	text-decoration: none;
 	line-height: 40 px;
 	height: 40 px;
-	border-right: 1 px solid black;
-	border-bottom: 1 px solid black;
+
 	
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
-	display:block;
-	color: #ffffff;
-	text-decoration: none;
-	background-color: #4d7d80;
-	text-align: center;
-	padding: 16 px;
-	font-weight: bold;
-	height: 50 px
-	width: 200%;
-	font-weight: bold;
+	display:inline-block;
+	
 }
 
 /* Styling when hovering on the topnav. */
