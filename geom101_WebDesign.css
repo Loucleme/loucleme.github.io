@@ -27,27 +27,27 @@ p {
 	background-color: #4d7d80;
 	text-align: center;
 	overflow: hidden;
-	padding: 30;
+	padding: 50;
 	margin: 0;
 	top: 0;
-	text-decoration: none;
+	
 }
 
 /* Styling list items to display as blocks in the navigation bar. */
 .topnav li {
-	list-style-type: none;
 	display: inline-block;
 	font-family: verdana, sans-serif;
-	font-size: 30 px;
-	line-height: 40 px;
-	height: 80 px;
+	text-decoration: none;
 }
 	
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
-	list-style-type: none;
 	display:inline-block;
+	font-size: 30 px;
+	line-height: 40 px;
+	height: 80 px;
+	padding: 20 px;
 }
 
 /* Styling when hovering on the topnav. */
