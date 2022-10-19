@@ -20,7 +20,7 @@ body {
 /* Style for the heading1 */
 h1 {
 	color: maroon;
-	font-size: 20px;
+	font-size: 22px;
 	font-family: Verdana, sans-serif;
 	margin-top: 40px;
 	font-style: italic;
@@ -43,14 +43,13 @@ p {
 /* Place the topnav horizontally at the top of page. */
 .topnav ul {
 	list-style-type: none;
-	float: left;
 	position: fixed;
 	background-color: #4d7d80;
 	text-align: center;
 	overflow: hidden;
 	top: 0px;
 	padding: 5px;
-	margin: 0px;
+	margin-left: 0px;
 }
 
 /* Styling list items to display as blocks in the navigation bar. */
@@ -63,8 +62,8 @@ p {
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
-	font-size: 18px;
-	line-height: 18px;
+	font-size: 16px;
+	line-height: 16px;
 	font-weight: bold;
 	text-decoration: none;
 }
