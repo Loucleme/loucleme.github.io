@@ -43,6 +43,7 @@ p {
 /* Place the topnav horizontally at the top of page. */
 .topnav ul {
 	list-style-type: none;
+	position: fixed;
 	background-color: #4d7d80;
 	text-align: center;
 	overflow: hidden;
