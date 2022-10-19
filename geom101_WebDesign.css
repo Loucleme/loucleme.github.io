@@ -23,21 +23,30 @@ p {
 .topnav {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #4d7d80;
 	top: 0;
-	display: inline;
-	width: 200%;
-	border-right: 1 px solid black;
+	font-family: verdana, sans-serif;
+
 }
 
-/* Styling the interior of the navigation bar. */
-.topnav a {
-	float: left;
-	display: inline;
+/* Styling list items to display as blocks in the navigation bar. */
+.topnav li {
+	display: block;
 	color: #ffffff;
-	text-align: center;
+	float: left;
+	margin-left: 2 px;
+	border-right: 1 px solid black;
 	padding: 30 px 30 px;
-	font-size: 35 px;
+	
+	
+/* Styling the a elements to block elements in the interior of the navigation bar. */
+.topnav a {
+	display:block;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #4d7d80;
+	text-align: center;
+	padding: 6 px;
+	font-weight: bold;
 	height: 50 px
 	width: 200%;
 	font-weight: bold;
