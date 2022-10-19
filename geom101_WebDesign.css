@@ -2,22 +2,28 @@
 /* Background Colour for the whole page and clearing out margin and padding */
 body {
 	background-color: #9fc4c6;
-	padding: 0 px;
-	margin: 0 px;
+	padding: 0px;
+	margin: 0px;
 }
 
+/* id selector to alter just 1 paragraph to different font */
+#moxie {
+	color:
+	font-size: 100px;
+	font-weight: bold;
+	font-style: italic;
+}
 /* Style for the heading1 */
 h1 {
 	color: maroon;
-	margin-left: 80 px;
-	font-size: 70 px;
+	margin-left: 80px;
+	font-size: 70px;
 }
 
 /* Style for the paragraphs */
 p {
-	font-size: 65 px;
-	margin-left: 45 px;
-	margin-right: 45 px;
+	font-size: 65px;
+	margin: 50px
 	font-family: Verdana, sans-serif;
 }
 
@@ -27,9 +33,9 @@ p {
 	background-color: #4d7d80;
 	text-align: center;
 	overflow: hidden;
-	padding: 4 em;
-	margin: 0 px;
-	top: 0 px;
+	padding: 4em;
+	margin: 2em;
+	top: 0px;
 	
 }
 
@@ -37,18 +43,18 @@ p {
 .topnav li {
 	display: inline-block;
 	font-family: verdana, sans-serif;
-	padding: 2 em;
-	margin: 2 em;
+	padding: 2em;
+	margin: 2em;
 }
 	
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
-	font-size: 40 px;
-	line-height: 2 em;
-	line-weight: bold;
-	padding: 2 em;
-	margin: 2 em;
+	font-size: 40px;
+	line-height: 2em;
+	font-weight: bold;
+	padding: 2em;
+	margin: 2em;
 	text-decoration: none;
 }
 
