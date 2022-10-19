@@ -8,22 +8,23 @@ body {
 
 /* id selector to alter just 1 paragraph to different font */
 #moxie {
-	color:
-	font-size: 100px;
+	color: #ffccff;
+	font-size: 4em;
 	font-weight: bold;
 	font-style: italic;
 }
 /* Style for the heading1 */
 h1 {
 	color: maroon;
-	margin-left: 80px;
-	font-size: 70px;
+	margin-left: 2em;
+	font-size: 8em;
+	font-family: Verdana, sans-serif;
 }
 
 /* Style for the paragraphs */
 p {
-	font-size: 65px;
-	margin: 50px
+	font-size: 3em;
+	margin-left: 3em;
 	font-family: Verdana, sans-serif;
 }
 
@@ -33,10 +34,8 @@ p {
 	background-color: #4d7d80;
 	text-align: center;
 	overflow: hidden;
-	padding: 4em;
-	margin: 2em;
-	top: 0px;
-	
+	padding: 2em;
+	margin: 1em;
 }
 
 /* Styling list items to display as blocks in the navigation bar. */
@@ -44,7 +43,7 @@ p {
 	display: inline-block;
 	font-family: verdana, sans-serif;
 	padding: 2em;
-	margin: 2em;
+	margin: 1em;
 }
 	
 	
@@ -54,7 +53,7 @@ p {
 	line-height: 2em;
 	font-weight: bold;
 	padding: 2em;
-	margin: 2em;
+	margin: 1em;
 	text-decoration: none;
 }
 
