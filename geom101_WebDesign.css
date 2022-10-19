@@ -2,8 +2,11 @@
 /* Background Colour for the whole page and clearing out margin and padding */
 body {
 	background-color: #9fc4c6;
-	padding: 0px;
-	margin: 0px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;	
 }
 
 /* id selector to alter just 1 paragraph to different font */
@@ -13,28 +16,33 @@ body {
 	font-weight: bold;
 	font-style: italic;
 }
+
 /* Style for the heading1 */
 h1 {
 	color: maroon;
-	margin-left: 2em;
 	font-size: 8em;
+	font-family: Verdana, sans-serif;
+}
+
+/* Setting an alternate h2 font style*/
+h2 {
+	font-size: 4em;
 	font-family: Verdana, sans-serif;
 }
 
 /* Style for the paragraphs */
 p {
 	font-size: 3em;
-	margin-left: 3em;
 	font-family: Verdana, sans-serif;
 }
 
-/* Place the topnav at the top of the page and make it stick. */
+/* Place the topnav horizontally at the top of page. */
 .topnav ul {
 	list-style-type: none;
 	background-color: #4d7d80;
 	text-align: center;
 	overflow: hidden;
-	padding: 2em;
+	padding: 1em;
 	margin: 1em;
 }
 
@@ -42,17 +50,17 @@ p {
 .topnav li {
 	display: inline-block;
 	font-family: verdana, sans-serif;
-	padding: 2em;
+	padding: 1em;
 	margin: 1em;
 }
 	
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
-	font-size: 40px;
+	font-size: 2em;
 	line-height: 2em;
 	font-weight: bold;
-	padding: 2em;
+	padding: 1em;
 	margin: 1em;
 	text-decoration: none;
 }
