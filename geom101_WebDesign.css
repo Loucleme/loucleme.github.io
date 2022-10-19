@@ -43,6 +43,7 @@ p {
 /* Place the topnav horizontally at the top of page. */
 .topnav ul {
 	list-style-type: none;
+	float: left;
 	position: fixed;
 	background-color: #4d7d80;
 	text-align: center;
@@ -62,8 +63,8 @@ p {
 	
 /* Styling the a elements to block elements in the interior of the navigation bar. */
 .topnav a {
-	font-size: 20px;
-	line-height: 20px;
+	font-size: 18px;
+	line-height: 18px;
 	font-weight: bold;
 	text-decoration: none;
 }
