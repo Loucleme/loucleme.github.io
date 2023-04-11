@@ -193,8 +193,15 @@ body {
       font-size: 28px;
       margin: 4px 2px;
       cursor: pointer;
+      text-decoration: none;
+      border-radius: 8px;
+      opacity: 80%;
     }
-    
+
+    .buttonPosition{
+        text-align:center;
+    }
+
     .button:hover{
         background-color: white;
         text-color: black;
